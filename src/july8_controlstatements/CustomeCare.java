@@ -28,6 +28,11 @@ public class CustomeCare
                     System.out.println("Please enter a valid input");
             }
         }
+        else
+        {
+            System.out.println("please enter a valid number");
+        }
+
 
     }
 }
