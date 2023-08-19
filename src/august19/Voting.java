@@ -18,6 +18,7 @@ public class Voting
         if (age<18)
         {
             int your_age = 18-age;
+            //throw new AgeLimitException();
             throw new AgeLimitException("Minimum voting age is 18 come again after: " + your_age + " years");
         }
         else
